@@ -24,3 +24,5 @@ yarn-error.log*
 
 # deployment
 /firebase
+.firebase/
+.firebaserc

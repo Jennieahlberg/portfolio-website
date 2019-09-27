@@ -57,7 +57,6 @@ class Startpage extends Component {
           <h1>About me</h1>
           <div className="profile">
             <p>
-              hejhej
             Developer specializing in frontend development with a passion for lovely design and team work.
             In 2018 I decided to try something new, and I plunged head first into the world of tech. 
             As a former expansion manager at a retail company I was able to use my old experiences 
@@ -124,7 +123,7 @@ class Startpage extends Component {
             <a className="project-list-item" href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">Quizit</a>
             <p>React Native, CSS, Firebase, NodeJS, Socket.io</p>
             <a className="project-list-item" href="https://www.jennieahlberg.com" target="_blank" rel="noopener noreferrer">This site, www.jennieahlberg.com</a>
-            <p>React, CSS, Cloudinary, Firebase</p>
+            <p>React.js, CSS, Cloudinary, Firebase</p>
           </section>
         </div>
 
