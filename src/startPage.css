@@ -1,0 +1,182 @@
+.startpage-wrapper {
+  min-height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-weight: 700;
+  font-size: 70px;
+  position: absolute;
+  top: 0;
+  background-image: url(./assets/skills-background.jpg);
+  background-size: cover;
+}
+
+.top-nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  justify-content: center;
+  padding: 10px 0;
+  width: 100%;
+  transition: top 0.3s;
+}
+
+.nav-bar-item {
+  color: white;
+  text-decoration: transparent;
+  cursor: pointer;
+  margin: 0 50px;
+}
+
+a:hover {
+  opacity: 0.5;
+  transition: ease 0.3s;
+}
+
+.content {
+  position: relative;
+  top: calc(100vh + 50px);
+}
+
+.content h1 {
+  margin: 0 250px 20px;
+  text-align: center;
+}
+
+.about-me {
+  padding: 0 0 50px !important;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile img {
+  border-radius: 50%;
+  margin-right: 250px;
+}
+
+.about-me p {
+  margin: 0 250px;
+  line-height: 1.5;
+  margin-right: 20px;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.project-list a {
+  margin: 0 250px;
+}
+
+.project-list p {
+  margin: 0 250px;
+}
+
+.project-list-item {
+  color: black;
+  line-height: 1.5;
+}
+
+.project-list p {
+  padding-bottom: 15px;
+}
+
+.skills-wrapper {
+  background-image: url(./assets/notebook.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  color: white;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 380px;
+}
+
+.skills span {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills img {
+  height: 65px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.margin-250 {
+  margin: 0 250px;
+}
+
+.check-me-out-wrapper {
+  background-image: url(./assets/wood-medium.jpg);
+  min-height: 400px;
+  background-repeat: no-repeat;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.check-me-out-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.check-me-out-list span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 35px;
+}
+
+.check-me-out-list img {
+  height: 85px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.check-me-out-list-item {
+  color: white;
+  text-decoration: none;  
+}
+
+footer {
+  padding: 20px 100px;
+  line-height: 1.5;
+}
+
+footer .name {
+  font-family: Castal;
+  font-size: 32px;
+}
+
+footer .email {
+  font-size: 14px;
+}
