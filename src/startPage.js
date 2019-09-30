@@ -59,17 +59,13 @@ class Startpage extends Component {
           <h1>About me</h1>
           <div className="profile">
             <p>
-            Developer specializing in frontend development with a passion for lovely design and team work.
-            In 2018 I decided to try something new, and I plunged head first into the world of tech. 
-            As a former expansion manager at a retail company I was able to use my old experiences 
-            
-            Frontend (Javascript, HTML, CSS, SASS), Scrum, DevOps
+            Front end developer based in Stockholm, Sweden, with a passion for UX and really nice design.
             </p>
           </div>
           <div className="personality-icons-wrapper">
             <span>
               <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1569867687/personality_icons/leaf_jsv9p8.svg" alt="growing mindset"/>
-              <p>Growing mindset and always hungry for more knowledge, believes in lifelong learning.</p>
+              <p>Growth mindset with a humble personality. Always hungry for more knowledge.</p>
             </span>
             <span>
               <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1569867687/personality_icons/picture_wdcwek.svg" alt="seeing the whole"/>
@@ -84,7 +80,7 @@ class Startpage extends Component {
             </span>
             <span>
               <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1569867687/personality_icons/forward_rqsd9b.svg" alt="leader"/>
-              <p>Natural born leader with great communication skills and a humble approach.</p>
+              <p>Natural born leader with great communication skills. Always looking to move forward.</p>
             </span>
           </div>
          </div>
