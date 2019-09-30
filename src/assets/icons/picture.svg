@@ -1,0 +1,10 @@
+
+<svg width="206px" height="206px" viewBox="0 0 206 206" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#EEBF6B" cx="103" cy="103" r="103"></circle>
+        <rect id="Rectangle" fill="#DA7D15" x="43" y="52" width="121" height="95" rx="8"></rect>
+        <polygon id="Triangle" fill="#BF3518" points="90 76 122 122 58 122"></polygon>
+        <ellipse id="Oval" fill="#FFE3AB" cx="136.5" cy="77" rx="9.5" ry="9"></ellipse>
+        <polygon id="Triangle" fill="#DF570B" points="124 95 146 122 102 122"></polygon>
+    </g>
+</svg>

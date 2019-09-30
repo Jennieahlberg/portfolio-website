@@ -59,15 +59,33 @@ a:hover {
   display: flex;
 }
 
-.profile img {
-  border-radius: 50%;
-  margin-right: 250px;
+.wrapper .profile-name {
+  text-align: center;
 }
 
 .about-me p {
   margin: 0 250px;
   line-height: 1.5;
-  margin-right: 20px;
+  text-align: center;
+}
+
+.personality-icons-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.personality-icons-wrapper .profile-img {
+  border-radius: 50%;
+  height: 200px;
+  width: auto;
+}
+
+.personality-icons-wrapper img {
+  height: 110px;
+  width: auto;
 }
 
 .project-list {

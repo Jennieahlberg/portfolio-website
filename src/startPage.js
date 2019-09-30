@@ -46,8 +46,10 @@ class Startpage extends Component {
           <a className="nav-bar-item" id="nav-bar-check-me-out" href="#check-me-out">Check me out</a>
         </nav>
         <div className="wrapper">
-          <h3>Jennie A.</h3>
-          <h3>Frontend developer</h3>
+          <div className="profile-name">
+            <h3>Jennie A.</h3>
+            <h3>Frontend developer</h3>
+          </div>
         </div>
       </div>
 
@@ -63,9 +65,15 @@ class Startpage extends Component {
             
             Frontend (Javascript, HTML, CSS, SASS), Scrum, DevOps
             </p>
-            <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1564937127/undefined_stxsd5.jpg" alt="Jennie Ahlberg profile"/>
           </div>
-        </div>
+          <div className="personality-icons-wrapper">
+            <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1569867687/personality_icons/leaf_jsv9p8.svg" alt="growing mindset"/>
+            <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1569867687/personality_icons/picture_wdcwek.svg" alt="seeing the whole"/>
+            <img className="profile-img" src="https://res.cloudinary.com/di9zepf6f/image/upload/v1564937127/undefined_stxsd5.jpg" alt="Jennie Ahlberg profile"/>
+            <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1569867687/personality_icons/team_epdyqs.svg" alt="team player"/>
+            <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1569867687/personality_icons/forward_rqsd9b.svg" alt="leader"/>
+          </div>
+         </div>
 
         <div className="skills-wrapper" id="skills">
           <h1>Skills</h1>
