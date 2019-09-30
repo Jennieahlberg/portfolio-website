@@ -67,11 +67,25 @@ class Startpage extends Component {
             </p>
           </div>
           <div className="personality-icons-wrapper">
-            <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1569867687/personality_icons/leaf_jsv9p8.svg" alt="growing mindset"/>
-            <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1569867687/personality_icons/picture_wdcwek.svg" alt="seeing the whole"/>
-            <img className="profile-img" src="https://res.cloudinary.com/di9zepf6f/image/upload/v1564937127/undefined_stxsd5.jpg" alt="Jennie Ahlberg profile"/>
-            <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1569867687/personality_icons/team_epdyqs.svg" alt="team player"/>
-            <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1569867687/personality_icons/forward_rqsd9b.svg" alt="leader"/>
+            <span>
+              <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1569867687/personality_icons/leaf_jsv9p8.svg" alt="growing mindset"/>
+              <p>Growing mindset and always hungry for more knowledge, believes in lifelong learning.</p>
+            </span>
+            <span>
+              <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1569867687/personality_icons/picture_wdcwek.svg" alt="seeing the whole"/>
+              <p>Seeing the whole picture in a company, not only the technology.</p>
+            </span>
+            <span>
+              <img className="profile-img" src="https://res.cloudinary.com/di9zepf6f/image/upload/v1564937127/undefined_stxsd5.jpg" alt="Jennie Ahlberg profile"/>
+            </span>
+            <span>
+              <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1569867687/personality_icons/team_epdyqs.svg" alt="team player"/>
+              <p>Doer and self starter who works well under pressure in both teams and on my own.</p>
+            </span>
+            <span>
+              <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1569867687/personality_icons/forward_rqsd9b.svg" alt="leader"/>
+              <p>Natural born leader with great communication skills and a humble approach.</p>
+            </span>
           </div>
          </div>
 
