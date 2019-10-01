@@ -54,12 +54,11 @@ class Startpage extends Component {
       </div>
 
       <div className="content">
-
         <div className="about-me" id="about-me">
           <h1>About me</h1>
           <div className="profile">
             <p>
-            Front end developer based in Stockholm, Sweden, with a passion for UX and really nice design.
+            Front end developer based in Stockholm, Sweden, with a passion for UX and nice design.
             </p>
           </div>
           <div className="personality-icons-wrapper">
@@ -69,7 +68,7 @@ class Startpage extends Component {
             </span>
             <span>
               <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1569867687/personality_icons/picture_wdcwek.svg" alt="seeing the whole"/>
-              <p>Seeing the whole picture in a company, not only the technology.</p>
+              <p>Great at seeing the whole picture in a company, and not only the technology.</p>
             </span>
             <span>
               <img className="profile-img" src="https://res.cloudinary.com/di9zepf6f/image/upload/v1564937127/undefined_stxsd5.jpg" alt="Jennie Ahlberg profile"/>
@@ -83,7 +82,7 @@ class Startpage extends Component {
               <p>Natural born leader with great communication skills. Always looking to move forward.</p>
             </span>
           </div>
-         </div>
+        </div>
 
         <div className="skills-wrapper" id="skills">
           <h1>Skills</h1>
@@ -169,9 +168,10 @@ class Startpage extends Component {
         </footer>
 
       </div>
-     
+    
     </div>
-    );
+
+  );
   }
 }
  
