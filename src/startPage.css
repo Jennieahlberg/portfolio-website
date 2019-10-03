@@ -142,7 +142,7 @@ a:hover {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 0 200px;
+  margin: 0 400px;
 }
 
 .skills span {
@@ -214,7 +214,7 @@ footer .email {
 
 /* For mobile */
 @media screen and (max-width: 768px) {
-  
+
   .wrapper {
     background-image: url(./assets/fern.jpg);
   }
@@ -247,6 +247,10 @@ footer .email {
   
   .personality-icons-wrapper {
     flex-direction: column;
+  }
+
+  .personality-icons-wrapper .profile-img {
+    margin-bottom: 25px
   }
 
   .personality-icons-wrapper span p {
