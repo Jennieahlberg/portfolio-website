@@ -15,19 +15,21 @@ class Startpage extends Component {
         document.getElementById("nav-bar-skills").style.color = "black";
         document.getElementById("nav-bar-projects").style.color = "black";
         document.getElementById("nav-bar-check-me-out").style.color = "black";
+        document.getElementById("nav-bar-samples").style.color = "black";
         document.getElementById("navbar").style.background = "rgba(225, 225, 225, 0.8)";
       } else {
         document.getElementById("nav-bar-about-me").style.color = "white";
         document.getElementById("nav-bar-skills").style.color = "white";
         document.getElementById("nav-bar-projects").style.color = "white";
         document.getElementById("nav-bar-check-me-out").style.color = "white";
+        document.getElementById("nav-bar-samples").style.color = "white";
         document.getElementById("navbar").style.background = "transparent";
       }
       
       if (prevScrollpos > currentScrollPos) {
         document.getElementById("navbar").style.top = "0";
       } else {
-        document.getElementById("navbar").style.top = "-50px";
+        document.getElementById("navbar").style.top = "-80px";
       }
       prevScrollpos = currentScrollPos;
     }
@@ -43,6 +45,7 @@ class Startpage extends Component {
           <a className="nav-bar-item" id="nav-bar-about-me" href="#about-me">About me</a>
           <a className="nav-bar-item" id="nav-bar-skills" href="#skills">Skills</a>
           <a className="nav-bar-item" id="nav-bar-projects" href="#projects">Projects</a>
+          <a className="nav-bar-item" id="nav-bar-samples" href="#samples">Samples</a>
           <a className="nav-bar-item" id="nav-bar-check-me-out" href="#check-me-out">Check me out</a>
         </nav>
         <div className="wrapper">
@@ -75,7 +78,7 @@ class Startpage extends Component {
             </span>
             <span>
               <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1569867687/personality_icons/team_epdyqs.svg" alt="team player"/>
-              <p>Doer and self starter who works well under pressure in both teams and on my own.</p>
+              <p>Doer and self starter who works well under pressure in both teams and independently.</p>
             </span>
             <span>
               <img src="https://res.cloudinary.com/di9zepf6f/image/upload/v1569867687/personality_icons/forward_rqsd9b.svg" alt="leader"/>
@@ -141,6 +144,14 @@ class Startpage extends Component {
             <p>React Native, CSS, Firebase, NodeJS, Socket.io</p>
             <a className="project-list-item" href="https://www.jennieahlberg.com" target="_blank" rel="noopener noreferrer">This site, www.jennieahlberg.com</a>
             <p>React.js, CSS, Cloudinary, Firebase</p>
+          </section>
+        </div>
+
+        <div className="samples" id="samples">
+          <h1>Samples</h1>
+          <section>
+            <a className="samples-list-item" href="https://compare-sentences.firebaseapp.com/" target="_blank" rel="noopener noreferrer">Sentences comparisions</a>
+            <p>React, CSS, Firebase</p>
           </section>
         </div>
 
